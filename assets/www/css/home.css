@@ -1,0 +1,50 @@
+input:invalid{
+border:2px solid red;	
+	
+}
+#background{
+	position: absolute;
+	z-index: -1;
+	
+}
+#ding{
+	position: absolute;
+	top: -50px;
+	left: -130px;
+	opacity: 0.5;
+	
+	
+}
+
+#ding2{
+	position: absolute;
+	top: 318px;
+	left: 10px;
+	opacity: 0.5;
+	
+}
+#music{
+	position: absolute;
+	top: 600px;
+	left: 610px;
+	opacity: 0.5;
+	
+}
+#home{
+	position: fixed;
+	top:300px;
+	left: 300px;
+	
+}
+#image{
+	position: absolute;
+	top:500px;
+	left: 300px;
+	
+}
+#image2{
+	position: absolute;
+	top:600px;
+	left: 300px;
+	
+}

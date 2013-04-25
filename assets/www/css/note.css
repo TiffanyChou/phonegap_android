@@ -1,0 +1,18 @@
+body {
+	/*
+width: 320px;
+	height:480px;
+*/
+	background-color : white;
+}
+textarea {
+	font-size: 10pt;
+	line-height: 18px;
+	width: 300px;
+	height: 150px;
+	background-color: #eea;
+	background-image: url(paper.png);
+}
+#saveButton {
+	display: block;
+}

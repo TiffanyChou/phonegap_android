@@ -1,0 +1,25 @@
+body{
+background-image: url("http://www.2222.idv.tw/photo/TAIPEI%20101%20%E7%85%99%E7%81%AB/%E5%8D%B3%E8%88%88%E6%94%9D%E5%BD%B1%E2%80%A7%E5%8D%B3%E8%88%88%E6%84%9F%E5%8B%95-%E5%89%8E%E9%82%A3%E5%8D%B3%E6%98%AF%E6%B0%B8%E6%81%86/%E5%BC%B5%E6%97%AD%E8%82%9A%E7%97%9B%E5%B8%96.gif");
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  background-attachment:fixed;
+}
+#wrapper{
+margin-top: 100px;
+margin-left:100px;
+font-size: 25pt;
+color:white;
+font-family: 'Poiret One', cursive;
+text-shadow: 4px 4px 4px #aaa;
+}
+#venues{
+background-color: rgba(135,221,231,0.7); 
+color: white;
+font-family: 'Spinnaker', sans-serif;
+font-size: 12pt;
+width: 600px;
+line-height: 20pt;
+}

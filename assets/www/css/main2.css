@@ -1,0 +1,65 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	width: 320px;
+	height:480px;
+	background-image:url(oldcity.jpeg);
+	background-repeat: no-repeat;
+	
+	-webkit-animation: 'stardriver' 24s linear 0s infinite normal;
+}
+/*
+@-webkit-keyframes 'stardriver' {
+	0% { background-position: 0px 0px; }
+	100% { background-position: 0px 240px; }
+}
+*/
+#home{
+	position: absolute;
+	top:400px;
+	right:500px;
+	z-index: 999;
+}
+#gameScreen {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+/*
+	width: 320px;
+	height: 480px;
+*/
+}
+#gameScreen button {
+	height:40px;
+	font-size:24pt;
+}
+#f1,#f2,#f3,#f4,#f5,#f6,#f7,#f8,#f9,#f10 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 32px;
+	height: 32px;
+	background-image:url(flag.gif);
+}
+#message {
+	position:absolute;
+	top: 50px;
+	left: 20px;
+	width: 280px;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color : gray;
+	color: white;
+}
+.fade {
+	-webkit-animation: 'fade' 10s linear 0s 1 normal;
+}
+@-webkit-keyframes 'fade' {
+	0% { -webkit-transform: scale(2); }
+	5% { -webkit-transform: scale(0); }
+	100% { -webkit-transform: scale(0); }
+}

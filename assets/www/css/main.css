@@ -1,0 +1,62 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+/*
+	width: 320px;
+	height:480px;
+*/
+}
+#home{
+	position: absolute;
+	z-index: 999;
+}
+#gameScreen {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 420px;
+	background-image:url(oldcity.jpeg);
+}
+#gameScreen button {
+	height:40px;
+	font-size:24pt;
+}
+#ball {
+	position: absolute;
+	top: 160px;
+	left: 160px;
+	width: 32px;
+	height: 32px;
+	background-image: url(ball.png);
+}
+.yellowFlag {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 32px;
+	height: 32px;
+	background-image: url(flag.gif);
+}
+#message {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color : gray;
+	color: white;
+}
+.fade {
+	-webkit-animation: 'fade' 10s linear 0s 1 normal;
+}
+@-webkit-keyframes 'fade' {
+	0% { -webkit-transform: scale(2); opacity:1.0 }
+	5% { -webkit-transform: scale(0); opacity: 0; }
+	100% { -webkit-transform: scale(0); opacity: 0; }
+}
